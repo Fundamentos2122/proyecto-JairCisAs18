@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+
+html,
+body,
+h1, h2, h3, h4, h5, h6,
+p,
+ul, ol {
+    margin: 0;
+}
+
+body{
+    margin: 0 5em 0 5em;
+    background-image: url(d.jpg);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#container{
+    background-color: rgba(22, 22, 22, 0.637);
+}
+
+#header{
+    padding-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5em;
+    background-color: rgba(22, 22, 22, 0.637);
+}
+
+#header > form{
+    height: 100px;
+    width: 35%;
+}
+
+#header > form > input{
+    height: 40%;
+    width: 65%;
+    border-style: ridge;
+    border-radius: 7px;
+    border-width: 7px;
+    background-color: transparent;
+}
+
+#header > form > input::placeholder{
+    font-size: 18px;
+    color: white;
+}
+
+#logo{
+    height: 200px;
+    width: 220px;
+    padding-top: 20px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+#account{
+    list-style:none;
+}
+
+.option-account{
+    display: inline-block;
+    margin-left: -4px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.option-account:last-child{
+    border-right: 5px solid black;
+    border-radius: 0 5px 5px 0;
+}
+
+.option-account:first-child{
+    border-left: 5px solid black;
+    border-radius: 5px 0 0 5px;
+}
+
+img{
+    width: 252px;
+    height: 200px;
+}
+
+h1{
+    text-align: center;
+    background-color: rgba(22, 22, 22, 0.637);
+    color: white;
+}
+
+#info{
+    margin: 5em 0 5em 0;
+    position: relative;
+    background-color: rgba(22, 22, 22, 0.637);
+}
+
+#info > p{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 3em;
+    background-color: rgba(22, 22, 22, 0.637);
+    color: white;
+}
